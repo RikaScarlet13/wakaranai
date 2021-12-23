@@ -1,3 +1,172 @@
-* {
-    box-sizing: border-box;
+@font-face {
+	font-family: FrizQuadrata;
+	src: url("/wakaranai/Friz\ Quadrata/FrizQuadrataBold.otf");
 }
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+	font-family: FrizQuadrata;
+
+}
+
+.body{
+	background-image: url("grid.png");
+	height:750px;
+	background-color: #ffe3df;
+	
+}
+
+/* ---------------Header-------------- */
+.header-base{
+	width:100%;
+	height:100%;
+	top:0;
+	background: #481e10
+	
+}
+.header{
+	display: flex;
+	justify-content: center;
+	height:100px;
+	color: #ffe3df;
+	align-items: center;
+	margin-left: 50px;
+	margin-right: 10px;
+	font-size: 20px;
+	
+	
+}
+
+.loginbtn {
+	border-radius: 10px;
+    color: #481e10;
+    background-color: #ffc5b7;
+    padding:10px;
+    border: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	
+}
+
+.loginbtn:hover{color: #ffc5b7;background-color: white; cursor: pointer;}
+
+
+
+/* -----------------------------------BODY */
+
+.container{
+	background-color: #ae7b77;
+	border:none;
+	padding: 30px;
+    margin: 10px; 
+	display: flex;
+	justify-content: center;
+	
+}
+
+.headercont {
+	color: #ffe3df;
+	width: 600px;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	
+}
+
+.headerbod{
+	display: flex;
+	color: #481e10;
+	font-size: 35px;
+	padding-bottom: 50px;
+}
+
+
+#caption{
+	
+	font-size:20px;
+	color:#481e10;
+	
+}
+
+#createcap{
+	
+	font-size:30px;
+	color:#000;
+	font-weight:bold;
+	height:75px;
+	width:500px;
+}
+
+#capsub{
+	left:750px;
+	top:70px;
+	font-size:18px;
+	color:#000;
+	height:50px;
+	width:300px;
+	margin-top: 10px;
+}
+
+#createacct{
+	font-size:20px;
+	width:450px;
+	height:495px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#namebox{
+	width:200px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+#emailbox{
+	border-radius:5px;
+	background:white;
+	padding:10px;
+	font-size:18px;
+	margin-top:8px;
+	border-width: 1px;
+	border-style:solid;
+	border-color: gray;
+}
+
+
+
+#sub{
+	font-family:verdana;
+	font-size:14px;
+	color:#481e10
+	
+}
+
+/* footer--------------------------------- */
+
+.footerbase {
+	width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+	bottom: 0;
+    background-color: #ffe3df;
+}
+
+
